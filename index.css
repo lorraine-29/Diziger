@@ -4,13 +4,13 @@
 }
 
 .header {
-  width: 100%;
+  width: 100wh;
   height: 114;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  grid-gap: 25px;
+  justify-content: space-between;
+  background-color: aqua;
 }
 
 .youtubeLogo {
@@ -48,56 +48,74 @@
   margin-left: 152px;
   width: 27px;
   height: 20px;
-  
 }
-.combined-shape-icon{
+.combined-shape-icon {
   display: flex;
   margin-left: 24px;
 }
 .ui-11-icon {
   display: flex;
-  margin-left: 24px; 
+  margin-left: 24px;
 }
 .userpic-container {
   display: flex;
   align-items: center;
   margin-left: 49px;
   width: 40px;
-  height: 40px;   
+  height: 40px;
 }
-.userpic-icon {  
+.userpic-icon {
   width: 20px;
-  height: 20px;  
-  margin-left: 24px; 
+  height: 20px;
+  margin-left: 24px;
   border-radius: 50%;
 }
-.Menu-panel-container {
-  display:inline; 
-  margin-top: 114px;
-  margin-left: 31px;
-  width: 134px; 
-  height: 540px;  
-} 
-.Home-container{
-  margin-top: 114px; 
-  margin-left:20 px;
-  width: 78px; 
-  height: 20px;  
+
+.Home-container {
+  /* margin-top: 114px; */
+  /* margin-left: 20 px; */
+  width: 78px;
+  height: 20px;
 }
-.ui-71-icon {   
-  margin-left: 6px;  
-  width: 20px; 
+.ui-71-icon {
+  margin-left: 6px;
+  width: 20px;
   height: 19px;
 }
-  h1 {
+h1 {
   color: red;
   font-size: 40px;
-  }
+}
 
-.ui-01-icon{
-margin-left: 13px;
-color:#898989; 
-display:inline;
-width: 20px; 
-height: 19px;
+.ui-01-icon {
+  margin-left: 13px;
+  color: #898989;
+  display: inline;
+  width: 20px;
+  height: 19px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: lightcoral;
+}
+
+.main-container {
+  display: flex;
+  flex: 8;
+}
+
+.Menu-panel-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+.content-container {
+  display: flex;
+  flex: 7;
 }
