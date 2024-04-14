@@ -71,36 +71,20 @@
   border-radius: 50%;
 }
 
-.Home-container {
-  /* margin-top: 114px; */
-  /* margin-left: 20 px; */
-  width: 78px;
-  height: 20px;
-}
+
 .ui-71-icon {
   margin-left: 6px;
   width: 20px;
   height: 19px;
-}
-h1 {
   color: red;
   font-size: 40px;
 }
-
-.ui-01-icon {
-  margin-left: 13px;
-  color: #898989;
-  display: inline;
-  width: 20px;
-  height: 19px;
-}
-
 .list-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background-color: lightcoral;
+  color: #898989;
 }
 
 .main-container {
@@ -112,10 +96,54 @@ h1 {
   display: flex;
   flex: 1;
   flex-direction: column;
-  background-color: lightblue;
+  
 }
-
+.list-item2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #898989;
+}
+.subscriptions-container {
+  display: flex;
+  flex: 8;
+}
+.Menu-panel-subscriptions-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;  
+}
 .content-container {
   display: flex;
+   
+}
+.Dollie-Blair-container {
+  display: flex;
   flex: 7;
+  flex-direction: column;
+  width: 17px;
+  height: 280px; 
+}
+.Video{ 
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height:200px;
+  margin-left: 40px;    
+}
+.Recommended-container {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  width: 17px;
+  height: 280px;
+}
+.Video2 { 
+  display: flex;
+  align-items: center;
+  width: 17px;
+  height:200px;
+  margin-left: 40px;
+    
 }
